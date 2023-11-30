@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Radio Canada", sans-serif;
+  color: white;
+}
+body {
+  background-color: rgb(23, 23, 23);
+  /* background-color: black; */
+}
+
+h1 {
+  position: relative;
+  font-size: 90px;
+  text-align: center;
+  margin-top: 250px;
+  padding-bottom: 120px;
+}
+
+h1::before {
+  content: "A SIMPLE SCROLL ANIMATION ENABLED PAGE";
+  color: black;
+  position: absolute;
+  font-size: 90px;
+  text-align: center;
+  top: -4px;
+  left: -3px;
+  z-index: -1;
+  -webkit-text-stroke: 2px greenyellow;
+}
+
+.title h2 {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.spacer h2 {
+  margin-bottom: 7px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.spacer {
+  height: 100vh;
+}
+
+.card,
+.card2,
+.card3,
+.card4,
+.card5 {
+  width: 550px;
+  height: 30vh;
+  padding: 140px 30px;
+  border-radius: 10px;
+  background-color: rgb(179, 37, 179);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  left: -400px;
+  margin-bottom: 120px;
+  border: 6px solid white;
+}
+
+.card2 {
+  background-color: rgb(58, 37, 179);
+}
+
+.card3 {
+  background-color: rgb(37, 179, 162);
+}
+
+.card4 {
+  background-color: rgb(37, 179, 51);
+}
+
+.card5 {
+  background-color: crimson;
+  opacity: 0;
+  left: 480px;
+}
+
+.card6 {
+  opacity: 0;
+}
+
+.spacer3 {
+  height: 10vh;
+}
+
+.card6 h2 {
+  text-align: center;
+}
